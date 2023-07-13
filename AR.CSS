@@ -553,3 +553,22 @@ body {
   opacity: 10;
   transition: opacity 3s ease-in;
 }
+
+#toTop {
+  transition: 0.4s;
+  filter: opacity(0.75);
+  z-index: 99;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  height: 45px;
+  width: 45px;
+  padding: 7px 0 0 0;
+}
+
+#img-toTop {
+  filter: invert(1);
+  height: 30px;
+  width: 30px;
+  padding: 0;
+}
